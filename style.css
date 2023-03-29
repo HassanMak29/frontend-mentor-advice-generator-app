@@ -1,0 +1,129 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@800&display=swap");
+
+:root {
+  --quote-font-size: 2.8rem;
+
+  /* Primary */
+  --lightCyan: hsl(193, 38%, 86%);
+  --neonGreen: hsl(150, 100%, 66%);
+
+  /* Neutral */
+  --grayishBlue: hsl(217, 19%, 38%);
+  --darkGrayishBlue: hsl(217, 19%, 24%);
+  --darkBlue: hsl(218, 23%, 16%);
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Manrope", sans-serif;
+  height: 100vh;
+  min-height: 100vh;
+  background-color: var(--darkBlue);
+  display: flex;
+  place-content: center;
+  place-items: center;
+}
+
+main {
+  height: 100%;
+  width: 100%;
+  display: grid;
+  place-content: center;
+}
+
+h1 {
+  font-size: 1.3rem;
+  text-transform: uppercase;
+  letter-spacing: 0.2rem;
+  color: var(--neonGreen);
+}
+
+.card {
+  background-color: var(--darkGrayishBlue);
+  color: var(--lightCyan);
+  min-height: 35rem;
+  width: 55rem;
+  min-width: 50rem;
+  border-radius: 2rem;
+  padding: 5rem 4rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 3.5rem;
+  position: relative;
+  text-align: center;
+}
+
+.advice-wrapper {
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.advice {
+  font-size: var(--quote-font-size);
+}
+
+.divider-desktop {
+  margin-bottom: 1rem;
+  margin-top: auto;
+}
+
+.divider-mobile {
+  display: none;
+}
+
+.dice {
+  background-color: var(--neonGreen);
+  border-radius: 50%;
+  width: 5rem;
+  aspect-ratio: 1 / 1;
+  display: grid;
+  place-content: center;
+  position: absolute;
+  bottom: 0;
+  transform: translateY(50%);
+  cursor: pointer;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  position: absolute;
+  bottom: 1rem;
+  left: 50%;
+  transform: translateX(-50%);
+  color: var(--lightCyan);
+  margin-bottom: 3rem;
+}
+
+.attribution a {
+  color: hsl(15, 62%, 83%);
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+.attribution a:hover {
+  color: hsl(14, 31%, 52%);
+}
+
+@media only screen and (max-width: 500px) {
+  .divider-desktop {
+    display: none;
+  }
+
+  .divider-mobile {
+    display: block;
+  }
+}
