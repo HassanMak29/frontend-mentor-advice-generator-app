@@ -13,13 +13,13 @@ This is a solution to the [Advice generator app challenge on Frontend Mentor](ht
 
 ### Screenshot
 
-![](./screenshot.jpg)
-![](./screenshot-mobile.jpg)
+![](./screenshots/screenshot.jpg)
+![](./screenshots/screenshot-mobile.jpg)
 
 ### Links
 
 - Solution URL: [Solution URL](https://github.com/HassanMak29/frontend-mentor-advice-generator-app)
-- Live Site URL: [Live site URL](https://your-live-site-url.com)
+- Live Site URL: [Live site URL](https://frontend-mentor-advice-giver-hassan.netlify.app/)
 
 ## My process
 
