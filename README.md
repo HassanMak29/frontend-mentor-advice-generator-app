@@ -30,7 +30,7 @@ This is a solution to the [Advice generator app challenge on Frontend Mentor](ht
 - Flexbox
 - CSS Grid
 - Desktop-first workflow
-- [Vite](https://vite.dev/) - JS tool
+- [Vite](https://vitejs.dev/) - JS tool
 - [PostCSS](https://postcss.org/) - For styles
 
 ## Author
